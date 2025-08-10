@@ -1,0 +1,51 @@
+name: videocall
+description: "A new Flutter project."
+
+publish_to:
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  agora_rtc_engine: ^6.5.2
+  permission_handler: ^11.3.0
+
+
+flutter:
+  assets:
+    - assets/img/
+
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/font/NotoSansKR-Black.otf
+          weight: 900
+        - asset: assets/font/NotoSansKR-Bold.otf
+          weight: 700
+        - asset: assets/font/NotoSansKR-Medium.otf
+          weight: 500
+        - asset: assets/font/NotoSansKR-Regular.otf
+          weight: 400
+        - asset: assets/font/NotoSansKR-Light.otf
+          weight: 300
+        - asset: assets/font/NotoSansKR-Thin.otf
+          weight: 100
+
+
+
+  uses-material-design: true
+
